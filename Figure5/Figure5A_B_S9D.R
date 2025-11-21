@@ -149,8 +149,8 @@ suppressPackageStartupMessages({
 ## -------------------------------
 ## 0) Parameters / paths (EDIT)
 ## -------------------------------
-data_dir   <- "<DATA_DIR>"   # e.g., ".../9.nb/data"
-result_dir <- "<RESULT_DIR>" # e.g., ".../10.dis"
+data_dir   <- "<DATA_DIR>"   # e.g., ".../10.dis/data"
+result_dir <- "<RESULT_DIR>" # e.g., ".../10.dis.res"
 meta_file  <- file.path(data_dir, "nmf_clu_dat_merge.RData")  # provides `nmf_clu_dat_merge`
 
 ## The sample id is passed via command line: Rscript script.R <sample_id>
