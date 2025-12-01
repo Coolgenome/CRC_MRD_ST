@@ -1,8 +1,5 @@
 ############################################################
 ## Hex-like neighborhood counting (6 neighbors) on Visium grid
-## - Cleansed, modular, path-anonymized, English comments
-## - Equivalent logic: for each spot, find 6 neighbors by offsets,
-##   tally neighbor clusters, normalize by available neighbors.
 ############################################################
 
 suppressPackageStartupMessages({
@@ -135,9 +132,6 @@ message("[OK] Neighbor-normalized cluster frequencies saved: ", out_file)
 
 ############################################################
 ## Minimal distance from each spot to each cluster (per sample)
-## - Paths anonymized with placeholders
-## - English comments only
-## - Robust checks and clearer structure
 ############################################################
 
 suppressPackageStartupMessages({
