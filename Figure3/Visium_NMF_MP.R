@@ -1,7 +1,5 @@
 ############################################################
-## Spatial NMF → Metaprograms (MPs) end-to-end pipeline
-## Paths are anonymized. Replace <...> with your own.
-## Author: Yang (GitHub-ready, privacy-safe)
+## Spatial NMF → Metaprograms (MPs)
 ############################################################
 
 set.seed(1234)
@@ -38,9 +36,7 @@ suppressPackageStartupMessages({
 have_scalop <- requireNamespace("scalop", quietly = TRUE)
 
 ############################################################
-## 2) Optional helper scripts (if you have them)
-##    If not present, the pipeline still runs with a simple
-##    default filter (identity) for robust programs.
+## 2) Optional helper scripts 
 ############################################################
 robust_filter_available <- FALSE
 try({
